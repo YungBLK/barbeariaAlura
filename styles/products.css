@@ -1,0 +1,78 @@
+@import 'reset.css';
+@import 'styles.css';
+
+
+.ul-inline {
+    margin: 0 auto;
+    width: 940px;
+    padding: 50px 0;
+}
+
+.ul-inline li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 27px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.ul-inline li:hover{
+    border-color: orange;
+    transform: scale(1.1, 1.1);
+}
+
+.ul-inline h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.desc{
+    font-size: 18px;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+table{
+    margin: 20px 0 40px;
+}
+table thead{
+      background-color: #555555;
+      color: white;
+      font-weight: bold;  
+}
+table td, th {
+    padding: 15px 8px;
+    border: 1px solid #000000;
+
+}
+
+@media screen and (max-width: 480px){
+    .ul-inline {
+        width: auto;
+        padding: 45px 28px;
+    }
+    .ul-inline li {
+        display: block;
+        width: 100%;
+        margin: 40px auto;
+    }
+    .container{
+        width: auto;
+    }
+    .iframeVid{
+        width: 100%;
+    }
+    .imgBenefits{
+        width: 100%;
+    }
+    .benefits ul{
+        box-sizing: border-box;
+    }
+     .content-body-benefits ul{
+        width: 100%;
+    }
+}

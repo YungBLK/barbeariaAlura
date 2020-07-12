@@ -1,0 +1,96 @@
+@import 'reset.css';
+@import 'styles.css';
+
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
+}
+
+form{
+    padding: 40px 20px;
+}
+.labelP{
+    padding: 20px 0;
+}
+
+form label{
+    font-size: 20px;
+    margin: 0 0 10px;
+    display: block;
+}
+.checkbox{
+    margin: 30px 0;
+}
+
+.defaultInput{
+    margin: 0 0 20px;
+    display: block;
+    padding: 10px 20px;
+    width: 50%;
+}
+header a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+header{
+    background-color: #cccccc;
+}
+
+nav{
+    position: absolute;
+    top: 125px;
+    right: 0;
+
+}
+nav li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.btn-send{
+    font-size: 20px;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.btn-send:hover{
+    background-color: darkorange;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    background: url('../images/bg.jpg');
+    padding: 40px 0;
+    
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 480px){
+    nav {
+        position: static;
+    }
+    .container{
+        width: auto;
+    }
+    table{
+        margin: 0 auto;
+    }
+
+}
